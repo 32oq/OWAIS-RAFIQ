@@ -166,6 +166,15 @@ height: 200px;
   body{
   font-size:20Px;
   }
+  .navbar-brand{
+  font-family: 'Tangerine', serif;
+        font-size: 48px;
+        text-shadow: 4px 4px 4px #aaa;
+        letter-spacing: 5px;
+
+
+}
+  
   .reachoutimg{
     
   position: absolute;
