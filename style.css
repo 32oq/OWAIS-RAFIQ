@@ -163,6 +163,9 @@ height: 200px;
 }
 }
 @media screen and (max-width:500px){
+  body{
+  font-size:16Px;
+  }
   .reachoutimg{
     
   position: absolute;
