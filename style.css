@@ -164,13 +164,14 @@ height: 200px;
 }
 @media screen and (max-width:500px){
   body{
-  font-size:28Px;
+  font-size:20Px;
   }
   .navbar-brand{
-  font-family: 'Tangerine', serif;
+  
         font-size: 48px;
-        text-shadow: 4px 4px 4px #aaa;
-        letter-spacing: 5px;
+        
+       
+ 
 
 
 }
