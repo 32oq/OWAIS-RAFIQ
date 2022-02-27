@@ -150,49 +150,26 @@ height: 200px;
 .contact-icons{
 
 }
-@media screen   and (min-width : 990px)   {
-.reachoutimg{
-
-  position: absolute;
-  left:800px;
-  top:2750px;
+@media screen and (min-width: 990px) {
+    .reachoutimg {
+        position: absolute;
+        left: 800px;
+        top: 2750px;
+    }
+    .reachout-section {
+        text-align: inherit;
+    }
 }
-.reachout-section{
 
-  text-align: inherit;
-}
-}
-@media screen and (max-width:500px){
-  body{
-  font-size:20Px;
-  }
-  .navbar-brand{
-  
-        font-size: 48px;
-        
-       
- 
-
-
-}
-  
-  .reachoutimg{
-    
-  position: absolute;
-left:800px;
-top:5000px;
-}
-@media screen and (min-width:900px) and (max-width:990px){
-  .reachoutimg{
-
-position: absolute;
-left:800px;
-top:4750px;
-  }
-  .reachout-section{
-
-    text-align: inherit;
-  }
+@media screen and (min-width:900px) and (max-width:990px) {
+    .reachoutimg {
+        position: absolute;
+        left: 800px;
+        top: 4750px;
+    }
+    .reachout-section {
+        text-align: inherit;
+    }
 }
 
 .btn a{
