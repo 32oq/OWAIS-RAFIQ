@@ -202,7 +202,7 @@ body {
 
 }
     .reachout-section{
-    text-align: center;
+    text-align: inherit;
     }
   
   .reachoutimg{
@@ -213,6 +213,21 @@ top:5500px;
 }
 }
 
+@media screen and (max-width:490px) and (min-width:300px){
+
+     .reachoutimg{
+
+position: none;
+
+  }
+  .reachout-section{
+
+    text-align: center;
+  }
+}
+
+    
+}
 
 @media screen and (min-width:900px) and (max-width:990px){
   .reachoutimg{
