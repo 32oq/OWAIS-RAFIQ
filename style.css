@@ -187,27 +187,9 @@ body {
   text-align: inherit;
 }
 }
-@media screen and (max-width:500px){
-  body{
-  font-size:20Px;
-  }
-  .navbar-brand{
-  
-        font-size: 48px;
-        
-       
- 
 
 
-}
-  
-  .reachoutimg{
-    
-  position: absolute;
-left:-100px;
-top:5500px;
-}
-}
+
 @media screen and (min-width:900px) and (max-width:990px){
   .reachoutimg{
 
