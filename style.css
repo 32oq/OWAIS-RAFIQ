@@ -1,0 +1,256 @@
+body {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffff;
+    line-height: 3;
+    font-family: 'Sacramento', serif;
+    background-image: linear-gradient(80deg, #e55d87, #5fc3e4);
+    color: black;
+    transition: 1.9s;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg-light {}
+
+.navbar {
+    color: #5fc3e4;
+}
+
+.navbar-brand {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px white;
+    border: 5px;
+}
+
+.custom-navbar {
+    margin-left: 25%;
+}
+
+.nav-item {
+    padding-left: 40px;
+    color: #5fc3e4;
+}
+
+.welcome-heading {
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 4px 4px 4px #aaa;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.intro {
+    padding: 30px 60Px 30px 30px;
+    font-family: 'Quattrocento Sans', serif;
+}
+
+.intro-icons {
+    border-radius: 15px;
+    height: 14%;
+    padding-left: 30px;
+    margin-top: 5%;
+}
+
+.fab,
+.fas {
+    margin-left: 5%;
+}
+
+
+/* img{
+   width: 50%;
+   height: auto;
+ } */
+
+.intro-img {
+    height: 105%;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.idoimg {
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.skillcard {
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px grey;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.skillcard:hover {
+    background-color: #e55d87;
+    box-shadow: 5px 5px 2px gray;
+}
+
+.skillimg {
+    height: 50Px;
+    width: 60px;
+}
+
+.whtido {
+    margin-bottom: 50px;
+}
+
+.projectheading {
+    text-align: center;
+    text-decoration: underline;
+    margin: 40px;
+}
+
+.projectcard {
+    margin: 20px 30px 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 500px;
+    border-radius: 5%;
+    text-shadow: 4px 4px 4px #aaa;
+    padding: 60px 0px;
+}
+
+.projectlink,
+.projectlink:hover {
+    color: #EAEAEA;
+    text-decoration: none;
+}
+
+.projectcard:hover {
+    box-shadow: 10px 10px 10px 3px grey;
+}
+
+.project-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.reachdiv {}
+
+.reachout-section {
+    padding: 30px;
+    text-align: center;
+    /* background-color: #e3f2fd; */
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+}
+
+.reachoutimg {
+    border-radius: 100%;
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.contact-icons {}
+
+@media screen and (min-width: 990px) {
+    .reachoutimg {
+        position: absolute;
+        left: 800px;
+        top: 2750px;
+    }
+    .reachout-section {
+        text-align: inherit;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width:990px) {
+    .reachoutimg {
+        position: absolute;
+        left: 800px;
+        top: 4750px;
+    }
+    .reachout-section {
+        text-align: inherit;
+    }
+}
+
+.btn a {
+    text-decoration-style: dashed;
+    color: gray;
+}
+
+#footer-section p {
+    text-align: center;
+    color: rgb(235, 196, 196);
+}
+
+@keyframes h1 {
+    from {
+        opacity: 1;
+        /* transform:translate(); */
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.d1 {
+    width: 50px;
+    height: 20px;
+    background-color: rgb(255, 255, 255, 0.3);
+    border-radius: 15px;
+    border: #5fc3e4;
+}
+
+.d2 {
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(80deg, #e55d87, #5fc3e4);
+    border-radius: 100%;
+    transition: 0.8s;
+    transform: scale(0.8);
+    position: relative;
+    left: 0;
+    box-shadow: 0px 0px 10px 3px white;
+}
+
+.pdiv {
+    color: aliceblue;
+    position: relative;
+    left: -10px;
+    top: -5px;
+    font-weight: 1rem;
+    transition: 0.9s;
+    text-shadow: 4px 4px 4px white;
+}
+
+.pdivactive {
+    left: 40px;
+}
+
+.actived2 {
+    left: 30px;
+    transition: 0.8s;
+    transform: scale(0.8);
+    background: black;
+    box-shadow: 0px 0px 10px 3px rgb(65, 60, 60);
+}
+
+.darkmode {
+    background-image: none;
+    background-color: black;
+    color: #EAEAEA;
+}
+
+.myname {
+    color: #EAEAEA;
+    text-shadow: 14px 14px 14px rgb(255, 255, 255);
+}
+
+.navlinkwhite {
+    color: #EAEAEA;
+}
+
+.nav-item a {
+    color: #EAEAEA;
+}
