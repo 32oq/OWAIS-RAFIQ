@@ -1,5 +1,16 @@
 var d2 = document.querySelector(".d2");
 var p = document.querySelector(".pdiv");
+var body = document.querySelector(".divb");
+var divv = document.querySelector(".DIVV");
+
+function animatebody() {
+    body.classList.add("b");
+    divv.classList.add("optodivv");
+
+}
+setTimeout(animatebody, 300);
+
+
 d2.onclick = function() {
     d2.classList.toggle("actived2");
     darkmode();
