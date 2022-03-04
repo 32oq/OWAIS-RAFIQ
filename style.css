@@ -9,6 +9,16 @@ body {
     transition: 1.9s;
 }
 
+.divb {
+    position: absolute;
+    left: -1500px;
+}
+
+.b {
+    left: 0px;
+    transition: 2s;
+}
+
 * {
     box-sizing: border-box;
     padding: 0px;
